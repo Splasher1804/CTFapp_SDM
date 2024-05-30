@@ -46,7 +46,7 @@ This dynamic analysis challenge requires intercepting the communication between 
 ![Server-Client Intercept Screenshot](Screenshots/Apple_Page.png)
 
 ### Steps
-1. Set up Wireshark to capture network traffic from the app.
+1. Set up Wireshark to capture network traffic from the app. In case the IP is not correct, you can set the ip in the code to your phone ip. Still work in progress sorry :(.
 2. Interact with the app to generate server-client communication.
 3. Analyze the intercepted traffic to find the randomized input words.
 4. Use the correct input words to capture the flag.

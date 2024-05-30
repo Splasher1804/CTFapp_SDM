@@ -12,8 +12,6 @@ Welcome to the Android CTF Challenge App! This project contains several challeng
 ## Warm-up: Strings grep FLAG
 In this challenge, you'll start by searching through the APK file for hidden flags using the `strings` command. This will help you get familiar with the app's structure and hidden elements.
 
-![Warm-up Screenshot](path/to/warmup_screenshot.png)
-
 ### Steps
 1. Download the APK.
 2. Use the `strings` command to find potential flags.
@@ -22,7 +20,7 @@ In this challenge, you'll start by searching through the APK file for hidden fla
 ## Login Page Hashed Password
 This challenge involves finding a hashed password using static analysis. The password is hashed using MD5 and stored in the app.
 
-![Login Page Screenshot](path/to/login_page_screenshot.png)
+![Login Page Screenshot](Login_Page.png)
 
 ### Steps
 1. Decompile the APK using JADX.
@@ -33,7 +31,7 @@ This challenge involves finding a hashed password using static analysis. The pas
 ## Make Your Own Present Time
 In this challenge, you need to provide the correct time based on your analysis of the code.
 
-![Present Time Screenshot](path/to/present_time_screenshot.png)
+![Present Time Screenshot](Time_Page.png)
 
 ### Steps
 1. Decompile the APK using JADX.
@@ -43,7 +41,7 @@ In this challenge, you need to provide the correct time based on your analysis o
 ## Server-Client Intercept
 This dynamic analysis challenge requires intercepting the communication between the server and client using Wireshark. The input words are randomized.
 
-![Server-Client Intercept Screenshot](path/to/server_client_intercept_screenshot.png)
+![Server-Client Intercept Screenshot](Apple_Page.png)
 
 ### Steps
 1. Set up Wireshark to capture network traffic from the app.
@@ -54,30 +52,24 @@ This dynamic analysis challenge requires intercepting the communication between 
 ## The Secret Code of the Bank
 In this challenge, you'll need to find the secret code of the bank hidden within the app's code.
 
-![Secret Code Screenshot](path/to/secret_code_screenshot.png)
+![Secret Code Screenshot](Card_Page.png)
 
 ### Steps
 1. Decompile the APK using JADX.
 2. Navigate through the code to find references to the secret code.
 3. Identify the correct secret code and use it to capture the flag.
 
-## Screenshots
-Include screenshots here to visually guide participants through each challenge.
-
-### Example Screenshots
-![Example Screenshot 1](path/to/example_screenshot1.png)
-![Example Screenshot 2](path/to/example_screenshot2.png)
 
 ## Write-Ups
 Provide brief descriptions and steps for each challenge here. Detailed write-ups can be included in separate markdown files or linked from this section.
 
-- [Login Page Hashed Password Write-Up](path/to/login_page_writeup.md)
+- [Login Page Hashed Password Write-Up](Login_decomp.png)
 - [Make Your Own Present Time Write-Up](path/to/present_time_writeup.md)
 - [Server-Client Intercept Write-Up](path/to/server_client_intercept_writeup.md)
 - [The Secret Code of the Bank Write-Up](path/to/secret_code_writeup.md)
 
 ## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or additions.
+Authors are Cezar-Marian Sava and Mihai-Florian Miu.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

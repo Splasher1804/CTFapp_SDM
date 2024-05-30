@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CTFApp</string>
+    <string name="credit_card">FLAG{1234-5678-9012-3456}</string>
+</resources>
